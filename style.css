@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+#root{
+    text-align: center;
+}
+
+.clock {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  width: 350px;
+  height: 100px;
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  margin: 70px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  width: 100px;
+  margin-right: 5px;
+  padding: 1rem;
+  background-color: #333;
+  margin: auto;
+}
