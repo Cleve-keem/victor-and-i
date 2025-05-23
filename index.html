@@ -32,12 +32,14 @@
       }
     </style>
 
-    <p>I love programming!</p>
-    <!-- a duplicate -->
     <div id="root">
-      <span class="hours"></span>
-      <span class="minutes"></span>
-      <span class="seconds"></span>
+      <h1>Collaboration is Fun</h1>
+      <p>I love programming!</p>
+      <div>
+        <span class="hours"></span>
+        <span class="minutes"></span>
+        <span class="seconds"></span>
+      </div>
     </div>
 
     <script>
@@ -50,7 +52,6 @@
         const currentHours = currentTime.getHours();
         const currentMinutes = currentTime.getMinutes();
         const currentSeconds = currentTime.getSeconds();
-        // console.log(currentHours, currentMinutes, currentSeconds);
 
         hours.textContent = currentHours + ":";
         minutes.textContent = currentMinutes + ":";
